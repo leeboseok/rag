@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# 환경 설정
+.env
+*.env
+.env/
+.venv/
+venv/
+Pipfile.lock
+poetry.lock
+
+# 로그 및 임시 파일
+*.log
+*.tmp
+*.swp
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Node.js (프론트엔드 포함 시)
+node_modules/
+dist/
+build/
+npm-debug.log
+yarn-error.log
+.next/
+.out/
+
+# Docker
+docker-compose.override.yml
+*.tar
+*.img
+*.container
+
+# OS별 실행 파일 및 바이너리
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.out
+
+# 테스트 커버리지 및 리포트
+htmlcov/
+coverage.xml
+*.cover
+*.lcov
+pytest_cache/
+.cache/
+.tox/
+
+# GitHub Actions, GitLab CI 캐시 (선택)
+.github/workflows/.env
+.gitlab-ci.yml
